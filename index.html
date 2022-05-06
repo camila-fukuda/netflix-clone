@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl style -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
     <title>Netflix</title>
-</head>
-<body>
+  </head>
+  <body>
 
     <header>
         <div class="container">
@@ -21,25 +27,74 @@
     </header>
 
     <main>
+
         <section class="main-area">
             <div class="container">
                 <h3 class="title">ARCANE</h3>
                 <p class="synopsis">Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.</p>
+                <div class="buttons">
+                    <button role="button" class="button">
+                        <i class="fa-solid fa-play"></i>
+                        Assistir Agora
+                    </button>
+                    <button role="button" class="button">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais Informações
+                    </button>
+                </div>
             </div>
-            <div class="buttons">
-                <button role="button" class="button">
-                    <i class="fa-solid fa-play"></i>
-                    Assistir Agora
-                </button>
-                <button role="button" class="button">
-                    <i class="fa-solid fa-circle-info"></i>
-                    Mais Informações
-                </button>
+        </section>
+
+        <section class="catalog-area">
+            <div class="container">
+              <div class="owl-carousel owl-theme">
+
+                <div class="item item-catalog">
+                  <img src="/img/poster-1.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-2.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-3.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-4.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-5.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-6.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-7.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-8.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-9.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-10.jpg">
+                </div>
+                <div class="item item-catalog">
+                  <img src="/img/poster-11.jpg">
+                </div>
+              
+              </div>
             </div>
         </section>
     </main>
 
-    <script src="https://kit.fontawesome.com/92107cac89.js" crossorigin="anonymous"></script>
     
-</body>
+
+    <script src="https://kit.fontawesome.com/92107cac89.js" crossorigin="anonymous"></script>
+
+    <!-- owl scripts -->
+    <script src="js/owl/jquery-3.6.0.min.js"></script>
+    <script src="js/owl/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

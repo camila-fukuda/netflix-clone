@@ -1,0 +1,24 @@
+@media screen and (max-width: 640px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .main-area .button {
+        margin-top: 10px;
+        width: 200px;
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main-area .container {
+        width: 60%;
+    }
+}

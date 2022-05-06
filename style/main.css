@@ -12,6 +12,8 @@
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header .container {
@@ -36,4 +38,25 @@ header nav a {
 
 header nav a:hover{
     color: #ffff;
+}
+
+/* MAIN AREA */
+
+.main-area {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/main-poster.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-area .synopsis {
+    margin-bottom: 30px;
+}
+
+.main-area .title {
+    font-size: 40px;
 }
